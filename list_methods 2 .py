@@ -25,6 +25,7 @@ sorted_list=sorted(items2)
 print(sorted_list)
 # =======================
 
+[9, 6, 6, 5, 0]
 # ============================================
 #          reverse:
 # it reverses the order of the elements in a list

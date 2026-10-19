@@ -17,38 +17,37 @@ with open('test.txt','r') as file:
     print(content)
 
 
+# you dont need to close it manually
 
-
-
-
+# ==========================================================
 
 # #               ( to open a file we use open()  )
 
-# file_read=open('test.txt','w')
-# file_read.write('hello how are you \n')
-# file_read.write('iam good')
+file_read=open('test.txt','w')
+file_read.write('hello how are you \n')
+file_read.write('iam good')
 
 # #        after opening you must close the file:
-# file_read.close()
+file_read.close()
  
 # # ========================================================
 
 #           # (  if you want to write a whole list use ( writelines ) :) 
 
-# file_read=open('test.txt','w')
-# l1=['1 apple\n','2 banana\n','3 mango\n']
-# file_read.writelines(l1)
-# file_read.close()
+file_read=open('test.txt','w')
+l1=['1 apple\n','2 banana\n','3 mango\n']
+file_read.writelines(l1)
+file_read.close()
 # # =====================================
 
 # #           (use append to write in a file without removing the previous one)
 
 
 # # we will use (a) instead of  w means write
-# file_read=open('test.txt','a')
-# l1=['1 apple\n','2 banana\n','3 mango\n']
-# file_read.write('above are the fruits :')
-# file_read.close()
+file_read=open('test.txt','a')
+l1=['1 apple\n','2 banana\n','3 mango\n']
+file_read.write('above are the fruits :')
+file_read.close()
 
 
 
